@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Name | Products</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    nav ul li a {
+      font-size: 20px; /* Adjust to desired size */
+    }
+  </style>  
+  <style>
+  /* General styling */
+  body {
+    font-family: 'Futura', 'Calibri', sans-serif;
+    background-color: #FAF3F3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+  .logo {
+width: 150px;
+}
+  /* Navbar styling with "About" font */
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Futura', 'Calibri', sans-serif; 
+  }
+  <nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="product.html">Product</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #FF6F61;
+  }
+  /* Product Section */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .product-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  .product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .product-item img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .product-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #FF6F61;
+  }
+  .product-item p {
+  font-size: 18px; /* Adjust to desired size */
+  color: #555;
+}
+  /* Footer styling */
+  footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  footer a {
+    color: #FFC0CB;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: #FF7F7F;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="images/company-logo.png" alt="Company Logo" class="logo" style="border-radius: 50%;">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product-item">
+        <img src="LIPTINT.jpg" alt="Glow and Match Lip Tint">
+        <div>
+          <h2>Glow and Match Lip Tint</h2>
+          <p>Lip tint dengan formula tahan lama yang memberikan efek kilau alami pada bibir.</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="powder.jpg" alt="Glow Powder">
+        <div>
+          <h2>Glow Powder</h2>
+          <p>Powder dengan tekstur lembut yang menyerap minyak berlebih dan memberikan hasil akhir matte sempurna sepanjang hari.</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="eyeshadow.jpg" alt="Glow Eyeshadow">
+        <div>
+          <h2>Glow Eyeshadow</h2>
+          <p>Eyeshadow dengan warna-warna pigmented yang tahan lama, memberikan hasil akhir yang dramatis atau natural sesuai keinginan.</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="serum.jpg" alt="Glow Serum">
+        <div>
+          <h2>Glow Serum</h2>
+          <p>Serum yang kaya akan vitamin C dan asam hialuronat untuk membantu kulit tampak lebih cerah dan lembap.</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="cream.jpg" alt="Brightening Night Cream">
+        <div>
+          <h2>Brightening Night Cream</h2>
+          <p>Krim malam yang menutrisi kulit selama tidur untuk mendapatkan kulit bercahaya di pagi hari.</p>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="mist.jpg" alt="Radiant Glow Face Mist">
+        <div>
+          <h2>Radiant Glow Face Mist</h2>
+          <p>Face mist yang memberikan kilau sehat dan menjaga kelembapan sepanjang hari.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us: <a href="mailto:GlowandMatch@gmail.com">GlowandMatch@gmail.com</a> | Instagram: <a href="https://www.instagram.com/glowmatchbeauty?igsh=MWs0ZWZsMWcwczJuaA==" target="_blank"><img src="C:\Users\Audrey\OneDrive\Documents\web cmpny\INSTAGRAM.jpg" alt="Instagram" style="width: 20px;"> @glowmatchbeauty</a></p>
+  </footer>
+</body>
+</html>
+
+
+

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Company Name | Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    nav ul li a {
+      font-size: 20px; /* Adjust to desired size */
+    }
+  </style>  
+  <style>
+    body {
+      font-family: 'Futura', 'Calibri', sans-serif;
+      background-color: #FAF3F3; /* Warna latar belakang lembut */
+    }
+    .logo {
+  width: 150px;
+}
+    <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="product.html">Product</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #FF6F61;
+    }
+    .contact-form, .contact-info {
+      flex: 1 1 45%;
+      padding: 20px;
+      margin: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form h2, .contact-info h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    .contact-form form input, .contact-form form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form form button {
+      background-color: #FF6F61;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form form button:hover {
+      background-color: #FF7F7F;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+    .social-icons img {
+      width: 30px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .social-icons a {
+      margin-right: 15px;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="images/company-logo.png" alt="Company Logo" class="logo" style="border-radius: 50%;">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Hubungi Kami</h2>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Nama Anda" required>
+          <input type="email" name="email" placeholder="Email Anda" required>
+          <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h2>Informasi Kontak</h2>
+        <p><strong>Email:</strong> <a href="mailto:GlowandMatch@gmail.com">GlowandMatch@gmail.com</a></p>
+        <p><strong>Nomor Telepon:</strong> <a href="tel:+628138645399">+62 813-8645-3993</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/glowmatchbeauty" target="_blank">@glowmatchbeauty</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://web.whatsapp.com/" target="_blank">Klik di sini untuk chat WhatsApp</a></p>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+          <a href="https://www.instagram.com/glowmatchbeauty" target="_blank">
+            <img src="C:\Users\Audrey\OneDrive\Documents\web cmpny\INSTAGRAM.jpg" alt="Instagram">
+          </a>
+          <a href="https://web.whatsapp.com/" target="_blank">
+            <img src="C:\Users\Audrey\OneDrive\Documents\web cmpny\WHATSAPP.jpg" alt="WhatsApp">
+          </a>
+        </div>
+
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.798611083541!2d144.9577585!3d-37.8136114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d507bda2f79%3A0x1234567890abcdef!2sYour%20Location!5e0!3m2!1sen!2sid!4v1578300000000!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <p>Atau lihat di <a href="https://maps.app.goo.gl/tmef7trmskeEKSJE7" target="_blank">Google Maps</a> di aplikasi.</p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact us: <a href="mailto:GlowandMatch@gmail.com">GlowandMatch@gmail.com</a> | Instagram: <a href="https://www.instagram.com/glowmatchbeauty?igsh=MWs0ZWZsMWcwczJuaA==" target="_blank"><img src="C:\Users\Audrey\OneDrive\Documents\web cmpny\INSTAGRAM.jpg"alt="Instagram" style="width: 20px;"> @glowmatchbeauty</a></p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
